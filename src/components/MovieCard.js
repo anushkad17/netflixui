@@ -1,4 +1,4 @@
-﻿import "../styles/MovieCard.css";
+import "../styles/MovieCard.css";
 
 const getMovieTitle = (movie) =>
   movie.titleText?.text || movie.title || movie.name || movie.originalTitle || "Untitled";
